@@ -37,8 +37,6 @@ function App() {
     } else return (positiveFeedback / countTotalFeedback()) * 100;
   };
 
-  useEffect(() => {}, []);
-
   return (
     <Div>
       <Section title="Please leave feedback">
